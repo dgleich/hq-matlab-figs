@@ -7,4 +7,5 @@ publish:
 	git add *.png *.eps *.html
 	git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`"
 	git push origin gh-pages
+	git checkout master    
     
